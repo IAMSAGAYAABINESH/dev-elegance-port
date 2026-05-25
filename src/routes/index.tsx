@@ -11,6 +11,28 @@ export const Route = createFileRoute("/")({
     meta: [
       { title: "Sagaya Abinesh R — Senior AI/ML Engineer" },
       { name: "description", content: "Senior AI/ML Engineer building agentic AI, RAG, computer vision and production ML systems." },
+      { property: "og:title", content: "Sagaya Abinesh R — Senior AI/ML Engineer" },
+      { property: "og:description", content: "Senior AI/ML Engineer building agentic AI, RAG, computer vision and production ML systems." },
+      { property: "og:url", content: "https://sagaya-protfolio.lovable.app/" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://sagaya-protfolio.lovable.app/" },
+    ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Sagaya Abinesh R",
+          jobTitle: "Senior AI/ML Engineer",
+          url: "https://sagaya-protfolio.lovable.app/",
+          email: "mailto:abinesh.sagaya@gmail.com",
+          worksFor: { "@type": "Organization", name: "Icebergs" },
+          knowsAbout: ["Agentic AI", "RAG", "LLMs", "Computer Vision", "Production ML"],
+          sameAs: ["https://www.linkedin.com", "https://github.com"],
+        }),
+      },
     ],
   }),
   component: Home,
