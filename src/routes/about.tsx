@@ -9,6 +9,12 @@ export const Route = createFileRoute("/about")({
     meta: [
       { title: "About — Sagaya Abinesh R" },
       { name: "description", content: "Senior AI/ML Engineer based in Chennai. Bachelor of Computer Science with 8.0 CGPA. Specialized in agentic AI, RAG, and computer vision." },
+      { property: "og:title", content: "About — Sagaya Abinesh R" },
+      { property: "og:description", content: "Senior AI/ML Engineer based in Chennai specializing in agentic AI, RAG, and computer vision." },
+      { property: "og:url", content: "https://sagaya-protfolio.lovable.app/about" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://sagaya-protfolio.lovable.app/about" },
     ],
   }),
   component: AboutPage,
