@@ -32,6 +32,7 @@ const CERTS = [
 function AboutPage() {
   return (
     <div className="mx-auto max-w-7xl px-6 py-16 md:py-24">
+      <h1 className="sr-only">About Sagaya Abinesh R — Senior AI/ML Engineer</h1>
       <SectionHeader index="00" title="About" subtitle="// $ whoami → engineer who ships" />
 
       <div className="grid lg:grid-cols-[1.4fr_1fr] gap-10 mb-20">
