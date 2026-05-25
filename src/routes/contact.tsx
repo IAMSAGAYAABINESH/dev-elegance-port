@@ -29,6 +29,7 @@ const CHANNELS = [
 function ContactPage() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <h1 className="sr-only">Contact Sagaya Abinesh R</h1>
       <SectionHeader index="00" title="Contact" subtitle="// $ ssh sagaya@portfolio.dev — open channel" />
 
       <div className="grid lg:grid-cols-[1fr_1.1fr] gap-10">
