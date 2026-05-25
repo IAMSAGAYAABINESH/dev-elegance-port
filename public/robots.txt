@@ -1,2 +1,4 @@
 User-agent: *
 Allow: /
+
+Sitemap: https://sagaya-protfolio.lovable.app/sitemap.xml

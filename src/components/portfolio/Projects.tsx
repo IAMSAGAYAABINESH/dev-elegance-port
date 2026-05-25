@@ -85,10 +85,10 @@ export function ProjectsGrid() {
                 </h3>
               </div>
               <div className="flex gap-1.5 opacity-60 group-hover:opacity-100 transition-opacity">
-                <a href="https://github.com" target="_blank" rel="noreferrer" className="h-8 w-8 grid place-items-center rounded border border-border hover:border-primary hover:text-primary transition-colors">
+                <a href="https://github.com" target="_blank" rel="noreferrer" aria-label={`${p.name} on GitHub`} className="h-8 w-8 grid place-items-center rounded border border-border hover:border-primary hover:text-primary transition-colors">
                   <Github size={14} />
                 </a>
-                <a href="#" className="h-8 w-8 grid place-items-center rounded border border-border hover:border-primary hover:text-primary transition-colors">
+                <a href="#" aria-label={`Open ${p.name} live demo`} className="h-8 w-8 grid place-items-center rounded border border-border hover:border-primary hover:text-primary transition-colors">
                   <ExternalLink size={14} />
                 </a>
               </div>

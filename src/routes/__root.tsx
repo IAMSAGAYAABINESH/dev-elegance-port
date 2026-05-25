@@ -54,17 +54,10 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sagaya Abinesh R — Senior AI/ML Engineer" },
-      { name: "description", content: "Portfolio of Sagaya Abinesh R, Senior AI/ML Engineer specializing in agentic AI, LLMs, computer vision, and production ML systems." },
       { name: "author", content: "Sagaya Abinesh R" },
-      { property: "og:title", content: "Sagaya Abinesh R — Senior AI/ML Engineer" },
-      { property: "og:description", content: "Portfolio of Sagaya Abinesh R, Senior AI/ML Engineer specializing in agentic AI, LLMs, computer vision, and production ML systems." },
       { property: "og:type", content: "website" },
+      { property: "og:site_name", content: "Sagaya Abinesh R — Portfolio" },
       { name: "twitter:card", content: "summary_large_image" },
-      { name: "twitter:title", content: "Sagaya Abinesh R — Senior AI/ML Engineer" },
-      { name: "twitter:description", content: "Portfolio of Sagaya Abinesh R, Senior AI/ML Engineer specializing in agentic AI, LLMs, computer vision, and production ML systems." },
-      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5d8351-cbd9-49f4-93a1-1a7ae0059066/id-preview-4b0e3fd3--efd61382-4a06-4e83-8fff-fe62553013a9.lovable.app-1778850940360.png" },
-      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6b5d8351-cbd9-49f4-93a1-1a7ae0059066/id-preview-4b0e3fd3--efd61382-4a06-4e83-8fff-fe62553013a9.lovable.app-1778850940360.png" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },

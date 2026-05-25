@@ -8,6 +8,12 @@ export const Route = createFileRoute("/contact")({
     meta: [
       { title: "Contact — Sagaya Abinesh R" },
       { name: "description", content: "Get in touch with Sagaya Abinesh R for senior AI/ML roles, consulting, or collaboration." },
+      { property: "og:title", content: "Contact — Sagaya Abinesh R" },
+      { property: "og:description", content: "Reach out for senior AI/ML roles, consulting engagements, or product collaboration." },
+      { property: "og:url", content: "https://sagaya-protfolio.lovable.app/contact" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://sagaya-protfolio.lovable.app/contact" },
     ],
   }),
   component: ContactPage,
@@ -23,6 +29,7 @@ const CHANNELS = [
 function ContactPage() {
   return (
     <div className="mx-auto max-w-6xl px-6 py-16 md:py-24">
+      <h1 className="sr-only">Contact Sagaya Abinesh R</h1>
       <SectionHeader index="00" title="Contact" subtitle="// $ ssh sagaya@portfolio.dev — open channel" />
 
       <div className="grid lg:grid-cols-[1fr_1.1fr] gap-10">

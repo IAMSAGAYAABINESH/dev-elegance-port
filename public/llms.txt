@@ -1,0 +1,13 @@
+# Sagaya Abinesh R — Senior AI/ML Engineer
+
+> Portfolio of Sagaya Abinesh R, a Senior AI/ML Engineer based in Chennai specializing in agentic AI, RAG, LLMs, computer vision, and production ML systems.
+
+Currently leading agentic AI development at Icebergs for ERP, CRM, and AI-CAD platforms — including HVAC-CAD floor plan automation. Previously ML Programmer at Tata Consultancy Services.
+
+## Pages
+
+- [Home](/): Overview, hero, skills, selected work, and experience timeline.
+- [About](/about): Background, education, certifications, and full skill stack.
+- [Experience](/experience): Career history at Icebergs, TCS, and ZealEye.Ai.
+- [Projects](/projects): Selected AI/ML projects — GymGPT (RAG), HVAC-CAD Automation, Cancer Detection CNN, RAG SQL Chatbot.
+- [Contact](/contact): Email, phone, LinkedIn, and GitHub.
