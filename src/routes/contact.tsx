@@ -8,6 +8,12 @@ export const Route = createFileRoute("/contact")({
     meta: [
       { title: "Contact — Sagaya Abinesh R" },
       { name: "description", content: "Get in touch with Sagaya Abinesh R for senior AI/ML roles, consulting, or collaboration." },
+      { property: "og:title", content: "Contact — Sagaya Abinesh R" },
+      { property: "og:description", content: "Reach out for senior AI/ML roles, consulting engagements, or product collaboration." },
+      { property: "og:url", content: "https://sagaya-protfolio.lovable.app/contact" },
+    ],
+    links: [
+      { rel: "canonical", href: "https://sagaya-protfolio.lovable.app/contact" },
     ],
   }),
   component: ContactPage,
