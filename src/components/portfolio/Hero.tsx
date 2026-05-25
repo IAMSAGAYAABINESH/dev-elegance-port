@@ -86,6 +86,7 @@ export function Hero() {
             <br />
             <span className="text-primary text-glow">Abinesh R</span>
             <span className="text-primary animate-blink">.</span>
+            <span className="sr-only"> — Senior AI/ML Engineer</span>
           </motion.h1>
 
           <motion.p
