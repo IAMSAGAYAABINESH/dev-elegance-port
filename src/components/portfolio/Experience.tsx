@@ -22,7 +22,7 @@ export const EXPERIENCE = [
     stack: ["Agentic AI", "OpenCV", "YOLOv8", "ezdxf", "FastAPI", "RAG"],
   },
   {
-    role: "Programmer, ML",
+    role: "AI/ML Engineer",
     company: "Tata Consultancy Services",
     period: "05/2024 – 11/2025",
     bullets: [
